@@ -1,8 +1,8 @@
+import 'package:covid_19_infor/components/custom_appbar_widget.dart';
 import 'package:covid_19_infor/constants.dart';
 import 'package:flutter/material.dart';
 
 import 'button_layout.dart';
-import 'custom_appbar_widget.dart';
 
 class Header extends StatelessWidget {
   const Header({

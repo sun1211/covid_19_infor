@@ -1,4 +1,5 @@
 import 'package:covid_19_infor/constants.dart';
+import 'package:covid_19_infor/screen/Detail/detail_screen.dart';
 import 'package:flutter/material.dart';
 
 class Footer extends StatelessWidget {
@@ -10,11 +11,11 @@ class Footer extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // Navigator.of(context).push(
-        // MaterialPageRoute(
-        // builder: (_) => StatisticPage(),
-        // ),
-        // );
+        Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (_) => DetailScreen(),
+          ),
+        );
       },
       child: Container(
         height: 90,
